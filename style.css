@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    padding: 20px 0;
+}
+
+#registration h2 {
+    margin-bottom: 20px;
+}
+/* Home Section Styling with Background Image */
+.home-section {
+    position: relative;
+    background-image: url('path/to/your/background-image.jpg'); /* Update the path to your image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 60vh; /* Adjust the height as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+/* Overlay for better text readability */
+.home-section .overlay {
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Text styling */
+.home-section h2 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Shadow for better contrast */
+}
+
+.home-section p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Shadow for better contrast */
+}
+/* Photos Section Styling */
+#photos img {
+    width: 100%;
+    height: auto;
+    border: 2px solid #fff; /* Optional border around images */
+    border-radius: 10px; /* Optional border-radius for rounded corners */
+}
+
+/* Responsive image styling for smaller devices */
+@media (max-width: 767px) {
+    #photos img {
+        height: auto; /* Ensure images maintain aspect ratio */
+    }
+}
+#services img {
+    width: 100%;
+    height: auto;
+    border: 2px solid #fff; /* Optional border around images */
+    border-radius: 10px; /* Optional border-radius for rounded corners */
+}
+
+/* Responsive image styling for smaller devices */
+@media (max-width: 767px) {
+    #services img {
+        height: auto; /* Ensure images maintain aspect ratio */
+    }
+}
+#rooms img {
+    width: 100%;
+    height: auto;
+    border: 2px solid #fff; /* Optional border around images */
+    border-radius: 10px; /* Optional border-radius for rounded corners */
+}
+
+/* Responsive image styling for smaller devices */
+@media (max-width: 767px) {
+    #rooms img {
+        height: auto; /* Ensure images maintain aspect ratio */
+    }
+}
+.about{
+    
+}
